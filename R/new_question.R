@@ -10,10 +10,10 @@
 #'@return A question type object
 #'@export
 
-new_question <- function(name,option_num, correct_score, wrong_loss, partial_score, given_no_correct, correct){
+new_question <- function(name,option_num, correct_score, wrong_loss, partial_score, given_no_correct,  difficulty, discrimination, correct){
   #Updates score per correct answer if you are allowed partial marks
   if (partial_score == TRUE) {correct_score <- as.numeric(correct_score)/length(correct)}
-  structure(list(name = name, option_num = option_num,correct_score = correct_score, wrong_loss = wrong_loss, partial_score = partial_score, given_no_correct = given_no_correct,correct= sort(correct)), class = "question")
+  structure(list(name = name, option_num = option_num,correct_score = correct_score, wrong_loss = wrong_loss, partial_score = partial_score, given_no_correct = given_no_correct, difficulty = difficulty, discrimination = discrimination, random_guess = -1, correct= sort(correct)), class = "question")
 }
 
 

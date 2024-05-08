@@ -4,7 +4,7 @@
 \alias{answer_question}
 \title{Given a student and a question, gives a random answer to the question from the student}
 \usage{
-answer_question(s = student(), q = question())
+answer_question(s, q)
 }
 \arguments{
 \item{s}{A student that will answer the question}

@@ -4,7 +4,7 @@
 \alias{get_question_names}
 \title{Will get the names of each of the questions in a test}
 \usage{
-get_question_names(t = test())
+get_question_names(t)
 }
 \arguments{
 \item{t}{The test that the question names should be extracted from}

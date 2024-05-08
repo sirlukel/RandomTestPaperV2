@@ -5,13 +5,15 @@
 \title{Creates a new object with class question}
 \usage{
 new_question(
-  name = character(),
-  option_num = integer(),
-  correct_score = numeric(),
-  wrong_loss = numeric(),
-  partial_score = logical(),
-  given_no_correct = logical(),
-  correct = list()
+  name,
+  option_num,
+  correct_score,
+  wrong_loss,
+  partial_score,
+  given_no_correct,
+  difficulty,
+  discrimination,
+  correct
 )
 }
 \arguments{

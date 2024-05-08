@@ -4,7 +4,7 @@
 \alias{take_test}
 \title{Makes a given student answer all the questions in a given test}
 \usage{
-take_test(s = student(), t = test())
+take_test(s, t)
 }
 \arguments{
 \item{s}{The student that will take the test}

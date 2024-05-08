@@ -23,7 +23,7 @@ save_item.question <-function(x = question()){
     if(!file.exists("questions.csv"))
     {
       file.create("questions.csv")
-      header <- matrix(c('name', 'option_num', 'correct_score', 'wrong_loss', 'partial_score', 'given_no_correct', 'correct',0,0,0,0,0,0,0),nrow = 2, byrow = TRUE)
+      header <- matrix(c('name', 'option_num', 'correct_score', 'wrong_loss', 'partial_score', 'given_no_correct', 'difficultly','discrimination','random_guess', 'correct',0,0,0,0,0,0,0,0,0,0),nrow = 2, byrow = TRUE)
       write.table(header,file = "questions.csv", sep = ",", col.names = FALSE, row.names = FALSE, quote = FALSE)
     }
     q<- x[-length(x)]
@@ -45,7 +45,7 @@ save_item.data.frame <- function(x){
     if(!file.exists("questions.csv"))
     {
       file.create("questions.csv")
-      header <- matrix(c('name', 'option_num', 'correct_score', 'wrong_loss', 'partial_score', 'given_no_correct', 'correct',0,0,0,0,0,0,0),nrow = 2, byrow = TRUE)
+      header <- matrix(c('name', 'option_num', 'correct_score', 'wrong_loss', 'partial_score', 'given_no_correct','difficultly','discrimination','random_guess', 'correct',0,0,0,0,0,0,0,0,0,0),nrow = 2, byrow = TRUE)
       write.table(header,file = "questions.csv", sep = ",", col.names = FALSE, row.names = FALSE, quote = FALSE)
     }
     write.table(x, file = 'questions.csv',append = FALSE, sep = ",", col.names = TRUE, row.names = FALSE)

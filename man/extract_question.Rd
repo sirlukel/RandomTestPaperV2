@@ -4,7 +4,7 @@
 \alias{extract_question}
 \title{Will get a question from a list of all currently stored questions via its name}
 \usage{
-extract_question(name = character(), all_qs = data.frame())
+extract_question(name, all_qs)
 }
 \arguments{
 \item{name}{The name of the desired question}

@@ -25,16 +25,19 @@ answer_question.default <- function(s, q){
   }else{
     choice <- sample(1:q$option_num, size = sample(1:q$option_num,1),replace = F)
   }
-  s <- new_student(sort(choice), s$total_marks)
+  s <- new_student(sort(choice), s$total_marks, s$ability)
   #marks the question once choices are selected
   s<- mark_question(s,q)
   return(s)
 }
 
+
+
+
 #' Mark a question that a student has answered
 #'
 #' @param s A student that has an answer to the question given
-#' @param q A question that is being marked witht the students answers
+#' @param q A question that is being marked with the students answers
 #'
 #' @return A student with the marks updated based on if the answer was correct
 #' @export
@@ -74,6 +77,6 @@ mark_question.default <- function(s, q){
     }
     else{ added_marks<- as.numeric(q$wrong_loss)}
   }
-  s <- new_student(s$given_answer, s$total_marks + added_marks)
+  s <- new_student(s$given_answer, s$total_marks + added_marks, s$ability)
   return(s)
 }

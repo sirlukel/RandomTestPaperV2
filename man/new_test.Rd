@@ -4,7 +4,7 @@
 \alias{new_test}
 \title{Creates a new object with class 'test'}
 \usage{
-new_test(questions = list(), name = chr(), can_neg = logical())
+new_test(questions, name, can_neg)
 }
 \arguments{
 \item{questions}{A list of questions that makes up the test}

@@ -4,7 +4,7 @@
 \alias{in_test}
 \title{Will get a list of all tests that a question is contained in}
 \usage{
-in_test(x = character(), all_tests = list())
+in_test(x, all_tests)
 }
 \arguments{
 \item{x}{The name of the question}

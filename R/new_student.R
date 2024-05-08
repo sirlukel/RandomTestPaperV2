@@ -6,6 +6,6 @@
 #' @return A new Student class object
 #' @export
 
-new_student <- function(answer, marks){
-  structure(list(given_answer = as.integer(answer),total_marks = as.numeric(marks)), class = "student")
+new_student <- function(answer, marks, ability){
+  structure(list(given_answer = as.integer(answer),total_marks = as.numeric(marks), ability = ability), class = "student")
 }

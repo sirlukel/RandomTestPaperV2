@@ -4,7 +4,7 @@
 \alias{generate_test}
 \title{Will Generate a test based on a list of question names}
 \usage{
-generate_test(all_qs = data.frame(), qs = character(), can_neg = logical())
+generate_test(all_qs, qs, can_neg)
 }
 \arguments{
 \item{all_qs}{A data.frame containing all current created questions}

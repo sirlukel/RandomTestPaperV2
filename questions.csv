@@ -1,0 +1,3 @@
+"name","option_num","correct_score","wrong_loss","partial_score","given_no_correct","correct"
+"test_question",12,3,18,FALSE,TRUE,"3,6,9,12"
+"test_question2",12,3,18,FALSE,TRUE,"3,6,9,12"

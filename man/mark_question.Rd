@@ -4,12 +4,12 @@
 \alias{mark_question}
 \title{Mark a question that a student has answered}
 \usage{
-mark_question(s = student(), q = question())
+mark_question(s, q)
 }
 \arguments{
 \item{s}{A student that has an answer to the question given}
 
-\item{q}{A question that is being marked witht the students answers}
+\item{q}{A question that is being marked with the students answers}
 }
 \value{
 A student with the marks updated based on if the answer was correct

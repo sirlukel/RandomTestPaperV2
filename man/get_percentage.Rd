@@ -4,7 +4,7 @@
 \alias{get_percentage}
 \title{Will get the percentage of marks scoring above a specified percentage}
 \usage{
-get_percentage(marks = numeric(), percentage = integer(), max_mark = numeric())
+get_percentage(marks, percentage, max_mark)
 }
 \arguments{
 \item{marks}{A vector containing the marks of all the students}

@@ -4,7 +4,7 @@
 \alias{extract_test}
 \title{Will return a test object given the name of the test and a list of all tests and all questions}
 \usage{
-extract_test(name = character, all_ts = list(), all_qs = data.frame())
+extract_test(name, all_ts, all_qs)
 }
 \arguments{
 \item{name}{The name of the desired test}

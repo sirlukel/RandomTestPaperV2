@@ -4,7 +4,7 @@
 \alias{new_student}
 \title{Creates a new object with class 'student'}
 \usage{
-new_student(answer = integer(), marks = numeric())
+new_student(answer, marks, ability)
 }
 \arguments{
 \item{answer}{A list of option numbers that the student will use as the answer to the question}

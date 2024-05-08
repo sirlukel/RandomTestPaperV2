@@ -4,7 +4,7 @@
 \alias{add_to_all_test}
 \title{Will add a test to the list of all current tests}
 \usage{
-add_to_all_test(x = character(), addto)
+add_to_all_test(x, addto)
 }
 \arguments{
 \item{x}{The list containing the test name and the name of all questions in the test}
