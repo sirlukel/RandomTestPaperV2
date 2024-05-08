@@ -5,7 +5,7 @@
 #' @return A vector of all the question names from the test
 #' @export
 #'
-#' @examples
+
 get_question_names <- function(t)
 {
   UseMethod('get_question_names')

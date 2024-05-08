@@ -1,3 +1,10 @@
+#' Will get the confidence interval of the percentage of students that pass
+#'
+#' @param marks A vector containing the marks of all the students
+#' @param percentage The percentage we are interested in
+#' @param max_mark The maximum possible mark on the test
+#'
+#' @return The confidence interval for the percentage
 #' @export
 
 getPerCI <- function(marks, percentage, max_mark)
@@ -16,6 +23,12 @@ getPerCI.default <- function(marks, percentage, max_mark)
   return(c(per_pass - 1.96*se, per_pass + 1.96*se))
 }
 
+
+#' Will get the confidence interval of the average mark achieved
+#'
+#' @param marks A vector containing the marks of all the students
+#'
+#' @return The confidence interval for average mark
 #'@export
 
 getAvCI <- function(marks)
