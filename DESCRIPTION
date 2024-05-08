@@ -2,7 +2,8 @@ Package: randomtestpapersV2
 Title:  RandomTestPapersV2
 Version: 0.0.0.9000
 Authors@R: 
-    person("Luke", "Brooke", "brookeluke@btinternet.com")
+    person("Luke", "Brooke",, "brookeluke@btinternet.com", role = c("aut", "cre"),
+    comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: use_mit_license()
 Encoding: UTF-8

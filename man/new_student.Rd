@@ -10,6 +10,8 @@ new_student(answer, marks, ability)
 \item{answer}{A list of option numbers that the student will use as the answer to the question}
 
 \item{marks}{The current amount of marks that the student has}
+
+\item{ability}{a numeric value giving the ability of the students}
 }
 \value{
 A new Student class object

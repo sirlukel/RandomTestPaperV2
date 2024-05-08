@@ -17,6 +17,8 @@ new_question(
 )
 }
 \arguments{
+\item{name}{string value giving name for the question for easy reference within a tests}
+
 \item{option_num}{an integer representing the number of options the question has}
 
 \item{correct_score}{a numeric value representing how many marks you are awarded for answering the question correctly}
@@ -26,6 +28,10 @@ new_question(
 \item{partial_score}{a logical value stating if a student should be awarded a portion of the marks for choosing some correct choices, but no incorrect choices}
 
 \item{given_no_correct}{a logical value stating if the student is told how many answers to the question are correct}
+
+\item{difficulty}{a numeric value giving the difficulty of the question}
+
+\item{discrimination}{a positive numeric value giving the discrimination of the question}
 
 \item{correct}{a list of integers giving the number of each correct answer. There should be no repeated numbers and no number higher than option_num}
 }
