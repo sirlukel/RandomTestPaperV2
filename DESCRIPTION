@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Luke", "Brooke",, "brookeluke@btinternet.com", role = c("aut", "cre"),
     comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Updated verision of randomtestpapersV1 that now includes functionality for estimating the abilities of students, as well as the difficutly and discrimination of questions on a test.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
