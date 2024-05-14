@@ -2,7 +2,7 @@
 #'
 #' @param ability  The ability of the student answering the question
 #' @param a The discrimination of the question
-#' @param b The difficutly of the question
+#' @param b The difficulty of the question
 #' @param c The chance of randomly getting the question correct
 #' @param score The score achieved on the question by the student
 #'
