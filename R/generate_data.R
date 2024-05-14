@@ -1,4 +1,4 @@
-library(dplyr)
+Depends: dplyr
 
 #' Given a question will calculate an estimate of the probability of getting the question correct through random guessing
 #'
